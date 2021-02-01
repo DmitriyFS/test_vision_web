@@ -1,0 +1,9 @@
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+h1 {
+    font-size: 22px;
+    border-bottom: 1px black solid;
+    }

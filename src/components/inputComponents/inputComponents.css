@@ -1,0 +1,35 @@
+.input-component__name {
+  grid-area: input-component__name;
+  width: 150px;
+  margin-right: 8px;
+}
+.input-component__input {
+  grid-area: input-component__input;
+  height: 24px;
+  box-sizing: border-box;
+}
+.input-component__message {
+  grid-area: input-component__message;
+  font-size: 14px;
+  color: #a94442;
+}
+
+.input-component {
+  margin: 10px auto;
+  display: grid;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
+
+  grid-template-areas:
+    "input-component__name input-component__input"
+    "input-component__name input-component__message";
+
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 7fr;
+}
+
+.mandatoryText {
+  font-size: 14px;
+  color: #a94442;
+}
